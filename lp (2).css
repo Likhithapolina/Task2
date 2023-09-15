@@ -1,0 +1,614 @@
+.bi-list {
+    /* Your CSS styles go here */
+    font-size: 24px; /* Set the font size */
+    color: #007bff; /* Set the text color */
+    /* Add more styles as needed */
+  }
+#header {
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 20px; /* Add padding to the header */
+}
+
+/* Profile styles */
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px; /* Set the width of the profile image */
+  height: 150px; /* Set the height of the profile image */
+  border-radius: 50%; /* Make the image round */
+  margin: 0 auto 10px; /* Center the image and add some margin */
+}
+
+.profile h1 {
+  font-size: 24px; /* Set the font size for the name */
+}
+
+/* Social links styles */
+.social-links a {
+  font-size: 20px; /* Set the font size for social icons */
+  margin: 0 10px; /* Add margin between social icons */
+  color: #007bff; /* Set the icon color */
+}
+
+/* Navigation menu styles */
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px; /* Add margin between navigation links */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500; /* Set the font weight for navigation links */
+}
+
+/* Active link style */
+.nav-menu .active {
+  color: #007bff; /* Change the color of the active link */
+}
+/* Hero section styles */
+#hero {
+  background-color: #000000; /* Set the background color */
+  color: #fff; /* Set the text color */
+  height: 100vh; /* Set the height of the hero section to cover the viewport */
+  text-align: center; /* Center-align text content */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+.hero-container {
+  max-width: 800px; /* Set the maximum width of the content container */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.hero-container h1 {
+  font-size: 36px; /* Set the font size for the main heading */
+  margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.hero-container p {
+  font-size: 18px; /* Set the font size for the paragraph */
+}
+
+/* Typed animation styles */
+.typed {
+  font-weight: bold; /* Make the typed text bold */
+  color: #ffcc00; /* Set the color of the typed text */
+}
+/* About section styles */
+.about {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Image styles */
+.about img {
+  max-width: 100%; /* Ensure the image is responsive */
+}
+
+/* Content styles */
+.content h3 {
+  font-size: 24px; /* Set the font size for headings */
+  margin-top: 20px; /* Add margin above headings */
+}
+
+.content p {
+  font-size: 16px; /* Set the font size for paragraphs */
+}
+
+/* List item styles */
+.content ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default list padding */
+}
+
+.content ul li {
+  margin-bottom: 10px; /* Add margin below list items */
+}
+
+.content ul li i {
+  margin-right: 10px; /* Add margin to the right of icons */
+}
+
+/* Italic text styles */
+.fst-italic {
+  font-style: italic; /* Make text italic */
+}
+/* Facts section styles */
+.facts {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Facts item styles */
+.count-box {
+  text-align: center; /* Center-align the item content */
+  padding: 30px; /* Add padding to each item */
+  background-color: #fff; /* Set the background color for each item */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+  margin: 15px; /* Add margin between items */
+}
+
+.count-box i {
+  font-size: 48px; /* Set the font size for icons */
+  color: #007bff; /* Set the icon color */
+}
+
+.count-box span {
+  font-size: 36px; /* Set the font size for counter numbers */
+  display: block;
+  margin-top: 10px; /* Add margin above counter numbers */
+  color: #333; /* Set the counter number color */
+}
+
+.count-box p {
+  font-size: 16px; /* Set the font size for descriptions */
+  margin-top: 10px; /* Add margin above descriptions */
+}
+/* Skills section styles */
+.skills {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Skill bars styles */
+.progress {
+  margin-bottom: 20px; /* Add margin below each skill bar */
+}
+
+.skill {
+  font-size: 18px; /* Set the font size for skill labels */
+  margin-bottom: 10px; /* Add margin below skill labels */
+  display: block;
+}
+
+.progress-bar-wrap {
+  background: #1a056e; /* Set the background color for skill bars */
+  height: 20px; /* Set the height of skill bars */
+  border-radius: 5px; /* Add border-radius for rounded skill bars */
+  position: relative;
+}
+
+.progress-bar {
+  background-color: #142435; /* Set the color of the progress bar */
+  width: 100%; /* Set the initial width of the progress bar */
+  height: 100%; /* Set the height of the progress bar */
+  border-radius: 5px; /* Add border-radius for rounded progress bars */
+  transition: width 1s ease-in-out; /* Add a smooth animation for width changes */
+}
+
+/* Skill value styles */
+.val {
+  font-size: 16px; /* Set the font size for skill values */
+  margin-top: 5px; /* Add margin above skill values */
+  color: #333; /* Set the color of skill values */
+}
+/* Resume section styles */
+.resume {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Resume item styles */
+.resume-title {
+  font-size: 24px; /* Set the font size for resume section titles */
+  margin-top: 20px; /* Add margin above resume section titles */
+}
+
+.resume-item h4 {
+  font-size: 18px; /* Set the font size for item headings */
+  margin-top: 10px; /* Add margin above item headings */
+}
+
+.resume-item h5 {
+  font-size: 16px; /* Set the font size for item subheadings (dates) */
+  color: #777; /* Set the color for item subheadings */
+  margin-bottom: 10px; /* Add margin below item subheadings */
+}
+
+.resume-item p {
+  font-size: 16px; /* Set the font size for item descriptions */
+  margin-top: 10px; /* Add margin above item descriptions */
+}
+
+.resume-item ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default list padding */
+}
+
+.resume-item ul li {
+  margin-bottom: 10px; /* Add margin below list items */
+}
+
+.resume-item ul li::before {
+  content: "\2022"; /* Add a bullet point before list items */
+  color: #007bff; /* Set the color of the bullet point */
+  display: inline-block;
+  width: 1em; /* Set the width of the bullet point */
+  margin-left: -1em; /* Add negative margin to align bullet points with text */
+  margin-right: 0.5em; /* Add margin to separate bullet points from text */
+}
+/* Portfolio section styles */
+.portfolio {
+  background-color: #1a2a3f; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Filter buttons styles */
+#portfolio-flters {
+  text-align: center; /* Center-align the filter buttons */
+  margin-bottom: 30px; /* Add margin below the filter buttons */
+}
+
+#portfolio-flters li {
+  list-style: none; /* Remove default list styles */
+  display: inline-block; /* Display filter buttons inline */
+  margin: 5px; /* Add margin around each filter button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 8px 16px; /* Add padding to filter buttons */
+  background-color: #007bff; /* Set the background color of filter buttons */
+  color: #fff; /* Set the text color of filter buttons */
+  border-radius: 5px; /* Add border-radius for rounded buttons */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+#portfolio-flters li.filter-active {
+  background-color:#007bff; /* Change background color of active filter button */
+}
+
+/* Portfolio item styles */
+.portfolio-item {
+  margin-bottom: 30px; /* Add margin below each portfolio item */
+}
+
+.portfolio-wrap {
+  position: relative; /* Set position to relative for portfolio item wrapper */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.portfolio-wrap img {
+  width: 100%; /* Make portfolio images responsive */
+  height: auto; /* Auto-adjust image height */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.portfolio-wrap .portfolio-links {
+  position: absolute; /* Set position to absolute for portfolio item links */
+  bottom: 0; /* Align links to the bottom of the portfolio item */
+  left: 0; /* Align links to the left of the portfolio item */
+  right: 0; /* Align links to the right of the portfolio item */
+  text-align: center; /* Center-align links */
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for links */
+  padding: 10px 0; /* Add padding to links */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+  opacity: 0; /* Initially hide links */
+}
+
+.portfolio-wrap:hover .portfolio-links {
+  opacity: 1; /* Show links on hover */
+}
+
+.portfolio-wrap .portfolio-links a {
+  color: #fff; /* Set link text color */
+  margin: 0 10px; /* Add margin around links */
+  font-size: 24px; /* Set link text font size */
+  text-decoration: none; /* Remove link underlines */
+  transition: color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.portfolio-wrap .portfolio-links a:hover {
+  color: #007bff; /* Change link text color on hover */
+}
+
+/* Lightbox icon styles */
+.portfolio-lightbox {
+  color: #fff; /* Set lightbox icon color */
+  font-size: 36px; /* Set lightbox icon size */
+}
+
+/* Lightbox icon hover styles */
+.portfolio-lightbox:hover {
+  color: #007bff; /* Change lightbox icon color on hover */
+}
+/* Services section styles */
+.services {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center; /* Center-align the title */
+}
+
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Icon box styles */
+.icon-box {
+  background-color: #fff; /* Set background color for icon boxes */
+  padding: 30px; /* Add padding inside icon boxes */
+  text-align: center; /* Center-align the content */
+  border-radius: 5px; /* Add border-radius for rounded boxes */
+  margin-bottom: 30px; /* Add margin below each icon box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.icon-box .icon {
+  font-size: 48px; /* Set icon size */
+  margin-bottom: 15px; /* Add margin below icons */
+  color: #007bff; /* Set icon color */
+}
+
+.icon-box h4.title {
+  font-size: 24px; /* Set title font size */
+  margin-bottom: 15px; /* Add margin below titles */
+}
+
+.icon-box p.description {
+  font-size: 18px; /* Set description font size */
+}
+/* Testimonials section styles */
+.testimonials {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align the content */
+}
+
+/* Section title styles */
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+  margin-bottom: 20px; /* Add margin below the title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Testimonials slider styles */
+.testimonials-slider {
+  margin-top: 30px; /* Add margin at the top of the slider */
+  position: relative; /* Set the slider's position to relative */
+}
+
+/* Testimonial item styles */
+.testimonial-item {
+  background-color: #fff; /* Set background color for testimonial items */
+  padding: 30px; /* Add padding inside testimonial items */
+  border-radius: 5px; /* Add border-radius for rounded boxes */
+  margin-bottom: 30px; /* Add margin below each testimonial item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.testimonial-item p {
+  font-size: 18px; /* Set font size for the testimonial text */
+  margin-bottom: 20px; /* Add margin below the testimonial text */
+}
+
+.testimonial-item img.testimonial-img {
+  width: 80px; /* Set the width of the testimonial image */
+  height: 80px; /* Set the height of the testimonial image */
+  border-radius: 50%; /* Make the image circular */
+  margin-top: 20px; /* Add margin at the top of the image */
+}
+
+.testimonial-item h3 {
+  font-size: 24px; /* Set font size for the testimonial author's name */
+  margin-top: 10px; /* Add margin at the top of the author's name */
+}
+
+.testimonial-item h4 {
+  font-size: 18px; /* Set font size for the testimonial author's title */
+  color: #777; /* Set a subdued color for the title */
+}
+
+/* Testimonials pagination styles */
+.swiper-pagination {
+  margin-top: 20px; /* Add margin at the top of the pagination */
+  text-align: center; /* Center-align the pagination */
+}
+
+.swiper-pagination-bullet {
+  width: 12px; /* Set the width of the pagination bullets */
+  height: 12px; /* Set the height of the pagination bullets */
+  background-color: #007bff; /* Set the bullet's background color */
+  border-radius: 50%; /* Make the bullets circular */
+  margin: 0 5px; /* Add margin between bullets */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  opacity: 0.5; /* Set initial opacity for bullets */
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1; /* Increase opacity for the active bullet */
+}
+/* Contact section styles */
+.contact {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 60px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align the content */
+}
+
+/* Section title styles */
+.section-title h2 {
+  font-size: 36px; /* Set the font size for the section title */
+  margin-bottom: 20px; /* Add margin below the title */
+}
+
+.section-title p {
+  font-size: 18px; /* Set the font size for the section description */
+  margin-bottom: 30px; /* Add margin below the description */
+}
+
+/* Info section styles (address, email, phone) */
+.info {
+  background-color: #fff; /* Set background color for the info section */
+  padding: 30px; /* Add padding inside the info section */
+  border-radius: 5px; /* Add border-radius for rounded boxes */
+  margin-bottom: 30px; /* Add margin below the info section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  text-align: left; /* Left-align the content */
+}
+
+.info h4 {
+  font-size: 24px; /* Set font size for headings inside the info section */
+  margin-bottom: 10px; /* Add margin below headings */
+}
+
+.info p {
+  font-size: 18px; /* Set font size for text inside the info section */
+  margin-bottom: 20px; /* Add margin below text */
+}
+
+/* Contact form styles */
+.php-email-form {
+  background-color: #fff; /* Set background color for the form */
+  padding: 30px; /* Add padding inside the form */
+  border-radius: 5px; /* Add border-radius for rounded boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.php-email-form label {
+  font-size: 18px; /* Set font size for form labels */
+  margin-bottom: 5px; /* Add margin below labels */
+}
+
+.php-email-form input[type="text"],
+.php-email-form input[type="email"],
+.php-email-form textarea {
+  width: 100%; /* Set the width of form inputs and textarea to 100% */
+  padding: 10px; /* Add padding to form inputs and textarea */
+  margin-bottom: 20px; /* Add margin below form inputs and textarea */
+  border: 1px solid #ccc; /* Add a border to form inputs and textarea */
+  border-radius: 3px; /* Add a slight border-radius */
+  font-size: 16px; /* Set font size for form inputs and textarea */
+}
+
+.php-email-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.php-email-form button[type="submit"] {
+  background-color: #007bff; /* Set the background color for the submit button */
+  color: #fff; /* Set text color for the submit button */
+  font-size: 18px; /* Set font size for the submit button */
+  padding: 10px 20px; /* Add padding to the submit button */
+  border: none; /* Remove the button border */
+  border-radius: 3px; /* Add a slight border-radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add a smooth background color transition */
+}
+
+.php-email-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+/* Footer styles */
+#footer {
+  background-color: #333; /* Set the background color for the footer */
+  color: #fff; /* Set the text color for the footer */
+  padding: 20px 0; /* Add padding to the top and bottom of the footer */
+  text-align: center; /* Center-align the content */
+}
+
+#footer .container {
+  max-width: 1200px; /* Set a maximum width for the container within the footer */
+}
+
+#footer .copyright {
+  font-size: 16px; /* Set font size for the copyright text */
+  margin-bottom: 10px; /* Add margin below the copyright text */
+}
+
+#footer .credits a {
+  color: #007bff; /* Set the link color for the "Designed by" link */
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+#footer .credits a:hover {
+  color: #0056b3; /* Change link color on hover */
+}
